@@ -4,6 +4,68 @@ const { JSDOM } = require('jsdom');
 const utils = require('./utils');
 
 /**
+ * Esami
+ */
+const scrapeExams = (document) => {
+  const exam = {};
+
+  document.querySelectorAll('#esami a[href^="https://teams"]').forEach((f) => {
+    const [title, ...rest] = f.textContent
+      .split('-')
+      .map((m) => m.trim().toLowerCase());
+    console.log();
+    exam[rest.slice(-1)] = {
+      description: f.textContent
+        .replace(`- ${rest.slice(-1)}`, '')
+        .trim()
+        .toLowerCase(),
+      teamsChannel: f.getAttribute('href'),
+    };
+
+    console.log(exam[rest.slice(-1)]);
+  });
+
+  const pds = require('./out/percorsi-di-studio.json');
+
+  pds.map((p) => {
+    document
+      .querySelectorAll(
+        `#esami #i${p.cds_id.toUpperCase()}body .card-body>div[id^='e${p.cds_id.toUpperCase()}']`
+      )
+      .forEach((f) => {
+        const rest = f.textContent
+          .split('-')
+          .map((m) => m.trim().toLowerCase())
+          .slice(-1);
+
+        exam[rest].pathOfStudySlug = p.slug;
+      });
+  });
+
+  const cds = require('./out/corsi-di-studio.json');
+
+  cds.map((p) => {
+    console.log(`#esami div[id*="${p.code}"] a[href^="https://teams"]`);
+    document
+      .querySelectorAll(
+        `div[id*="${p.code.toUpperCase()}content"] a[href^="https://teams"]`
+      )
+      .forEach((f) => {
+        const rest = f.textContent
+          .split('-')
+          .map((m) => m.trim().toLowerCase());
+
+        console.log(rest.slice(-1));
+        exam[rest.slice(-1)[0]]
+          ? (exam[rest.slice(-1)[0]].courseOfStudyCode = p.code)
+          : (exam[rest.slice(-1)[0]] = { courseOfStudyCode: p.code });
+      });
+  });
+
+  return exam;
+};
+
+/**
  * Corsi di studio
  */
 
@@ -52,6 +114,14 @@ const scrapePercorsiDiStudio = (document) => {
 
   return pds;
 };
+
+/**
+ *
+ * @param {*} selector
+ * @param {*} document
+ * @param {*} arrayToMutate
+ */
+
 /**
  * Lezioni on-line
  */
@@ -104,7 +174,7 @@ const scrape = async () => {
   const {
     window: { document },
   } = new JSDOM(html);
-  const items = scrapePercorsiDiStudio(document);
+  const items = scrapeExams(document);
 
   // scraperType1('#scuolecontent a', document, items);
   // scraperType2('#dipcontent a', document, 'dipartimenti', items);
