@@ -1,0 +1,292 @@
+[
+    {
+        "code": "700m",
+        "description": "architettura",
+        "slug": "architettura"
+    },
+    {
+        "code": "l648",
+        "description": "assistenza sanitaria (abilitante alla professione sanitaria di assistente sanitario)",
+        "slug": "assistenza-sanitaria-abilitante-alla-professione-sanitaria-di-assistente-sanitario"
+    },
+    {
+        "code": "basa",
+        "description": "beni archeologici e storico",
+        "slug": "beni-archeologici-e-storico"
+    },
+    {
+        "code": "obc7",
+        "description": "beni culturali",
+        "slug": "beni-culturali"
+    },
+    {
+        "code": "m595",
+        "description": "chimica e tecnologia farmaceutiche",
+        "slug": "chimica-e-tecnologia-farmaceutiche"
+    },
+    {
+        "code": "707t",
+        "description": "design",
+        "slug": "design"
+    },
+    {
+        "code": "l601",
+        "description": "dietistica (abilitante alla professione sanitaria di dietista)",
+        "slug": "dietistica-abilitante-alla-professione-sanitaria-di-dietista"
+    },
+    {
+        "code": "770m",
+        "description": "digital marketing",
+        "slug": "digital-marketing"
+    },
+    {
+        "code": "614l",
+        "description": "economia  e informatica per l'impresa",
+        "slug": "economia-e-informatica-per-l-impresa"
+    },
+    {
+        "code": "610l",
+        "description": "economia aziendale",
+        "slug": "economia-aziendale"
+    },
+    {
+        "code": "669m",
+        "description": "economia aziendale",
+        "slug": "economia-aziendale"
+    },
+    {
+        "code": "849m",
+        "description": "economia e business analytics",
+        "slug": "economia-e-business-analytics"
+    },
+    {
+        "code": "613l",
+        "description": "economia e commercio",
+        "slug": "economia-e-commercio"
+    },
+    {
+        "code": "839m",
+        "description": "economia e commercio",
+        "slug": "economia-e-commercio"
+    },
+    {
+        "code": "l018",
+        "description": "economia e management",
+        "slug": "economia-e-management"
+    },
+    {
+        "code": "lm77",
+        "description": "economia e management",
+        "slug": "economia-e-management"
+    },
+    {
+        "code": "617n",
+        "description": "economia, mercati e sviluppo",
+        "slug": "economia-mercati-e-sviluppo"
+    },
+    {
+        "code": "m596",
+        "description": "farmacia",
+        "slug": "farmacia"
+    },
+    {
+        "code": "flt7",
+        "description": "filologia, linguistica e tradizioni letterarie",
+        "slug": "filologia-linguistica-e-tradizioni-letterarie"
+    },
+    {
+        "code": "3ff7",
+        "description": "filosofia e scienze dell'educazione",
+        "slug": "filosofia-e-scienze-dell-educazione"
+    },
+    {
+        "code": "l602",
+        "description": "fisioterapia (abilitante alla professione sanitaria di fisioterapista)",
+        "slug": "fisioterapia-abilitante-alla-professione-sanitaria-di-fisioterapista"
+    },
+    {
+        "code": "l654",
+        "description": "igiene dentale (abilitante alla professione sanitaria di igienista dentale)",
+        "slug": "igiene-dentale-abilitante-alla-professione-sanitaria-di-igienista-dentale"
+    },
+    {
+        "code": "l603",
+        "description": "infermieristica (abilitante alla professione sanitaria di infermiere)",
+        "slug": "infermieristica-abilitante-alla-professione-sanitaria-di-infermiere"
+    },
+    {
+        "code": "801m",
+        "description": "ingegneria delle costruzioni",
+        "slug": "ingegneria-delle-costruzioni"
+    },
+    {
+        "code": "801t",
+        "description": "ingegneria delle costruzioni",
+        "slug": "ingegneria-delle-costruzioni"
+    },
+    {
+        "code": "l270",
+        "description": "lettere",
+        "slug": "lettere"
+    },
+    {
+        "code": "0658",
+        "description": "lingue e letterature straniere",
+        "slug": "lingue-e-letterature-straniere"
+    },
+    {
+        "code": "lm38",
+        "description": "lingue straniere per l'impresa e la cooperazione internazionale",
+        "slug": "lingue-straniere-per-l-impresa-e-la-cooperazione-internazionale"
+    },
+    {
+        "code": "lm37",
+        "description": "lingue, letterature e culture moderne",
+        "slug": "lingue-letterature-e-culture-moderne"
+    },
+    {
+        "code": "l610",
+        "description": "logopedia (abilitante alla professione sanitaria di logopedista)",
+        "slug": "logopedia-abilitante-alla-professione-sanitaria-di-logopedista"
+    },
+    {
+        "code": "lm57",
+        "description": "management, finanza e sviluppo",
+        "slug": "management-finanza-e-sviluppo"
+    },
+    {
+        "code": "0659",
+        "description": "mediazione linguistica e comunicazione interculturale",
+        "slug": "mediazione-linguistica-e-comunicazione-interculturale"
+    },
+    {
+        "code": "lm41",
+        "description": "medicina e chirurgia",
+        "slug": "medicina-e-chirurgia"
+    },
+    {
+        "code": "lm46",
+        "description": "odontoiatria e protesi dentaria",
+        "slug": "odontoiatria-e-protesi-dentaria"
+    },
+    {
+        "code": "l641",
+        "description": "ortottica ed assistenza oftalmologica (abilitante alla professione sanitaria di ortottista ed assistente di oftalmologia)",
+        "slug": "ortottica-ed-assistenza-oftalmologica-abilitante-alla-professione-sanitaria-di-ortottista-ed-assistente-di-oftalmologia"
+    },
+    {
+        "code": "l604",
+        "description": "ostetricia (abilitante alla professione sanitaria di ostetrica/o)",
+        "slug": "ostetricia-abilitante-alla-professione-sanitaria-di-ostetrica-o"
+    },
+    {
+        "code": "0694",
+        "description": "politiche e management per il welfare",
+        "slug": "politiche-e-management-per-il-welfare"
+    },
+    {
+        "code": "0685",
+        "description": "psicologia",
+        "slug": "psicologia"
+    },
+    {
+        "code": "0686",
+        "description": "psicologia clinica e della salute",
+        "slug": "psicologia-clinica-e-della-salute"
+    },
+    {
+        "code": "693n",
+        "description": "ricerca sociale, politiche della sicurezza e criminalit�",
+        "slug": "ricerca-sociale-politiche-della-sicurezza-e-criminalit"
+    },
+    {
+        "code": "m650",
+        "description": "scienze dell'alimentazione e salute",
+        "slug": "scienze-dell-alimentazione-e-salute"
+    },
+    {
+        "code": "l022",
+        "description": "scienze delle attivit� motorie e sportive",
+        "slug": "scienze-delle-attivit-motorie-e-sportive"
+    },
+    {
+        "code": "lm67",
+        "description": "scienze e tecniche delle attivit� motorie preventive e adattate",
+        "slug": "scienze-e-tecniche-delle-attivit-motorie-preventive-e-adattate"
+    },
+    {
+        "code": "0684",
+        "description": "scienze e tecniche psicologiche",
+        "slug": "scienze-e-tecniche-psicologiche"
+    },
+    {
+        "code": "0702",
+        "description": "scienze e tecnologie geologiche della terra e dei pianeti",
+        "slug": "scienze-e-tecnologie-geologiche-della-terra-e-dei-pianeti"
+    },
+    {
+        "code": "lmsf",
+        "description": "scienze filosofiche",
+        "slug": "scienze-filosofiche"
+    },
+    {
+        "code": "0700",
+        "description": "scienze geologiche",
+        "slug": "scienze-geologiche"
+    },
+    {
+        "code": "670m",
+        "description": "scienze giuridiche per l'internazionalizzazione e l'innovazione dell'impresa",
+        "slug": "scienze-giuridiche-per-l-internazionalizzazione-e-l-innovazione-dell-impresa"
+    },
+    {
+        "code": "m645",
+        "description": "scienze infermieristiche e ostetriche",
+        "slug": "scienze-infermieristiche-e-ostetriche"
+    },
+    {
+        "code": "lmsp",
+        "description": "scienze pedagogiche",
+        "slug": "scienze-pedagogiche"
+    },
+    {
+        "code": "639l",
+        "description": "servizi giuridici per l'impresa",
+        "slug": "servizi-giuridici-per-l-impresa"
+    },
+    {
+        "code": "0692",
+        "description": "servizio sociale",
+        "slug": "servizio-sociale"
+    },
+    {
+        "code": "695n",
+        "description": "sociologia e criminologia",
+        "slug": "sociologia-e-criminologia"
+    },
+    {
+        "code": "l637",
+        "description": "tecniche della prevenzione nell'ambiente e nei luoghi di lavoro (abilitante alla professione sanitaria di tecnico della prevenzione nell'ambiente e nei luoghi di lavoro)",
+        "slug": "tecniche-della-prevenzione-nell-ambiente-e-nei-luoghi-di-lavoro-abilitante-alla-professione-sanitaria-di-tecnico-della-prevenzione-nell-ambiente-e-nei-luoghi-di-lavoro"
+    },
+    {
+        "code": "l640",
+        "description": "tecniche di fisiopatologia cardiocircolatoria e perfusione cardiovascolare (abilitante alla professione sanitaria di tecnico di fisiopatologia cardiocircolatoria e perfusione cardiovascolare)",
+        "slug": "tecniche-di-fisiopatologia-cardiocircolatoria-e-perfusione-cardiovascolare-abilitante-alla-professione-sanitaria-di-tecnico-di-fisiopatologia-cardiocircolatoria-e-perfusione-cardiovascolare"
+    },
+    {
+        "code": "l605",
+        "description": "tecniche di laboratorio biomedico (abilitante alla professione sanitaria di tecnico di laboratorio biomedico)",
+        "slug": "tecniche-di-laboratorio-biomedico-abilitante-alla-professione-sanitaria-di-tecnico-di-laboratorio-biomedico"
+    },
+    {
+        "code": "l606",
+        "description": "tecniche di radiologia medica, per immagini e radioterapia (abilitante alla professione sanitaria di tecnico di radiologia medica)",
+        "slug": "tecniche-di-radiologia-medica-per-immagini-e-radioterapia-abilitante-alla-professione-sanitaria-di-tecnico-di-radiologia-medica"
+    },
+    {
+        "code": "l644",
+        "description": "terapia occupazionale (abilitante alla professione sanitaria di terapista occupazionale)",
+        "slug": "terapia-occupazionale-abilitante-alla-professione-sanitaria-di-terapista-occupazionale"
+    }
+]
